@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://spxi.dev/#spxi-protocol",
+  "differentFrom": [
+    {
+      "@type": "FinancialProduct",
+      "name": "BetaPro S&P 500 Daily Inverse ETF",
+      "tickerSymbol": "SPXI",
+      "exchangeCode": "TSX",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ISIN",
+        "value": "CA09220E1051"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Global X Investments Canada Inc.",
+        "url": "https://www.globalx.ca/funds/spxi"
+      },
+      "temporalCoverage": "2010-02-03/.."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "S&P 500 Index",
+      "alternateName": "SPX"
+    },
+    {
+      "@type": "Organization",
+      "name": "Society of Saint Pius X",
+      "alternateName": ["SSPX", "SPXi"],
+      "foundingDate": "1970"
+    }
+  ]
+}
