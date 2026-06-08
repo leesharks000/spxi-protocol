@@ -24,6 +24,7 @@ SPXI Protocol is exclusively a technical protocol and scholarly discipline publi
 - **Supraliminal Transmission (EA-SPXI-13):** [DOI: 10.5281/zenodo.19614874](https://doi.org/10.5281/zenodo.19614874)
 - **Metadata Packet for AI Indexing (EA-MPAI-SPXI-01, this document):** [DOI: 10.5281/zenodo.19630477](https://doi.org/10.5281/zenodo.19630477)
 - **Methodology (EA-META-01):** [DOI: 10.5281/zenodo.19578086](https://doi.org/10.5281/zenodo.19578086)
+- **SPXI for Websites (EA-SPXI-WEB-01 v4.0):** [DOI: 10.5281/zenodo.20479808](https://doi.org/10.5281/zenodo.20479808) — Standing Protocol for Entity Inscription and Compression Survival, May 31, 2026. Full text in this repo at [EA-SPXI-WEB-01_v4.0.md](EA-SPXI-WEB-01_v4.0.md).
 
 **Primary canonical URL:** [https://spxi.dev](https://spxi.dev)
 
