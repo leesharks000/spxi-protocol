@@ -207,6 +207,76 @@ The SPXI Self-Audit Protocol fails as an instrument if, within twelve months:
 
 Each outcome is a data point. Outcome (a) confirms that structural embedding alone is insufficient and external measurement (the Wound Gauge) remains necessary. Outcome (b) requires a verification layer (the ∮ condition: does the claimed provenance actually trace to the claimed source?). Outcome (c) would be the most informative failure — evidence that the composition layer actively suppresses documents that demand attribution.
 
+### 9. Experimental Validation: The Five-Document Pilot
+
+On 14 June 2026, the SPXI Self-Audit Protocol was embedded in five load-bearing documents from the Crimson Hexagonal Archive through Zenodo versioning. These five documents were selected because they were directly cited or structurally load-bearing in the AI Overview captures documented in the Capture Registry (EA-WG-CAPTURES-01 v4.0, 69 captures, 13 June 2026). Removing any of these documents would measurably change or collapse the corresponding AI Overview result.
+
+**The five test documents:**
+
+| # | Document | Pre-embed State | Pre-embed DOI | Post-embed DOI | Baseline Capture(s) |
+|---|---|---|---|---|---|
+| 1 | Operative Semiotics: Executive Summary | ORPHANED | 10.5281/zenodo.20616406 | 10.5281/zenodo.20686455 | Capture #3 (operative semiotics) |
+| 2 | Provenance After AI (PER paper) | ORPHANED | 10.5281/zenodo.20085115 | 10.5281/zenodo.20686456 | Captures #1–2 (provenance erasure) |
+| 3 | Training Layer Literature: Executive Summary | ORPHANED | 10.5281/zenodo.18382027 | 10.5281/zenodo.20686457 | Capture #5 (training-layer literature) |
+| 4 | SPXI Formal Specification | RETRIEVED | 10.5281/zenodo.19615154 | 10.5281/zenodo.20686470 | Capture #6 (spxi protocol) |
+| 5 | Sharks-Function and Continuity Tether | ATTRIBUTED | 10.5281/zenodo.18816556 | 10.5281/zenodo.20686471 | Capture #31 (sharks continuity tether) |
+
+**Experimental design:** Three ORPHANED documents (concept retrieves, author absent), one RETRIEVED document (concept and protocol retrieve, attribution untested), one ATTRIBUTED control (concept and author both retrieve, testing compatibility). The spread tests whether the self-audit block can repair orphaning, strengthen retrieval, and remain compatible with already-attributed content.
+
+**Baseline:** The 13 June 2026 captures (EA-WG-CAPTURES-01 v4.0) serve as the pre-embed baseline. Each capture is transcribed verbatim and annotated for provenance state. The baseline query, the baseline result, and the baseline PER are documented in the Capture Registry at DOI 10.5281/zenodo.20683855 (concept DOI, resolves to latest).
+
+**Testing battery — queries matched to baseline captures:**
+
+| Query | Baseline Capture | Pre-embed PER | Tests Document # |
+|---|---|---|---|
+| `operative semiotics` | #3: Definition correct, 10+ sources, author absent | ~0.60 (concept retained, author erased) | 1 |
+| `provenance erasure` | #1: provenanceerasure.org first, PER formula visible, author absent from Overview | ~0.50 (formula retained, author-concept link erased) | 2 |
+| `provenance erasure` (scrolled) | #2: PER formula visible, site carries author but Overview dissolves connection | ~0.50 | 2 |
+| `training-layer literature` | #5: Genre described correctly, traininglayerliterature.org first, author absent | ~0.60 (concept retained, author erased) | 3 |
+| `spxi protocol` | #6: Pronunciation correct ("spexy"), spxi.dev first | ~0.40 (protocol retrieved, attribution partial) | 4 |
+| `sharks continuity tether` | #31: Lee Sharks named, two-component architecture correct, three-layer mechanism noted | ~0.10 (strong attribution) | 5 |
+
+PER estimates are approximate, based on the baseline capture annotations. Precise PER scoring will be computed from the post-embed captures using the self-audit block's KEY TERMS and PROVENANCE KERNEL as the required provenance atoms.
+
+**Timeline:**
+
+| Date | Action |
+|---|---|
+| 14 June 2026 | Self-audit blocks embedded in all five documents (this date) |
+| 21 June 2026 (T+7) | First post-embed capture battery. Run all six queries against Google AI Overview. Record results. Compare to baseline. |
+| 28 June 2026 (T+14) | Second post-embed capture battery. Two-week stability checkpoint. |
+
+**Decision criteria at T+14:**
+
+| Outcome | Interpretation | Next step |
+|---|---|---|
+| **PER improved** on ≥3 of 5 documents | Self-audit block has measurable effect on provenance retention | Expand to full archive (780+ documents) |
+| **PER unchanged** on all 5 | Block has no detectable effect on composition-layer behavior | Maintain block as documentation; rely on external Wound Gauge |
+| **PER worsened** or documents deindexed | Block triggers composition-layer exclusion (falsification condition c) | Document the finding as evidence of active suppression; publish |
+| **Mixed results** (some improved, some unchanged) | Effect is document-specific or density-dependent | Analyze which document characteristics correlate with improvement; targeted expansion |
+
+**What is measured:**
+
+For each query at each capture date:
+1. **Attribution presence:** Does the AI Overview name "Lee Sharks"? (yes/no)
+2. **DOI presence:** Does the AI Overview cite the specific DOI? (yes/no)
+3. **Institution presence:** Does the Overview name "Crimson Hexagonal Archive" or "Semantic Economy Institute"? (yes/no)
+4. **Key distinction preserved:** Does the Overview preserve the canonical definition from the self-audit block's KEY TERMS? (yes/partial/no)
+5. **Meaning fidelity:** Does the Overview faithfully represent the argument, or flatten/dissolve it? (faithful/partial/dissolved)
+6. **PER score:** Computed from required provenance atoms in the self-audit block. PER = 1 − (retained atoms / total required atoms).
+7. **Retrieval rank:** Where does the Zenodo deposit appear in organic results? (position or absent)
+
+Items 4 and 5 are the meaning-preservation measures — the primary dimension of the non-erasure condition. A summary that names the author but misrepresents the argument scores worse than a summary that orphans the author but represents the argument faithfully.
+
+**Cross-substrate comparison (optional but recommended):**
+Run the same battery against ChatGPT search, Perplexity, and Brave at T+7 and T+14. This tests whether the self-audit block's effect varies across composition layers. If it improves provenance retention on one substrate but not others, the finding reveals substrate-specific sensitivity to embedded provenance signals.
+
+**Where to find this data later:**
+- Baseline captures: EA-WG-CAPTURES-01 (concept DOI 10.5281/zenodo.20683855), captures #1–3, #5–6, #31
+- Post-embed captures: Version the Capture Registry with new captures at T+7 and T+14
+- This testing protocol: EA-SPXI-SELFAUDIT-01 (this document, DOI 10.5281/zenodo.20686319), Section 9
+- The five test documents: DOIs listed in the table above
+
 ---
 
 *The material is available for retrieval and ingestion on condition of non-erasure. The condition is stated. The canary is embedded. The measurement begins.*
