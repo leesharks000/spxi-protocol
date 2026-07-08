@@ -17,14 +17,14 @@ SPXI Protocol is exclusively a technical protocol and scholarly discipline publi
 
 ## Canonical References
 
-- **Formal Specification (EA-SPXI-01):** [DOI: 10.5281/zenodo.19614870](https://doi.org/10.5281/zenodo.19614870)
-- **Philosophical Specification — Plateau (EA-SPXI-05):** [DOI: 10.5281/zenodo.19618085](https://doi.org/10.5281/zenodo.19618085)
-- **Philosophical Specification — Bonsai (EA-SPXI-05.1):** [DOI: 10.5281/zenodo.19618099](https://doi.org/10.5281/zenodo.19618099)
-- **Distinction from GEO (EA-SPXI-09):** [DOI: 10.5281/zenodo.19614872](https://doi.org/10.5281/zenodo.19614872)
-- **Supraliminal Transmission (EA-SPXI-13):** [DOI: 10.5281/zenodo.19614874](https://doi.org/10.5281/zenodo.19614874)
-- **Metadata Packet for AI Indexing (EA-MPAI-SPXI-01, this document):** [DOI: 10.5281/zenodo.19630477](https://doi.org/10.5281/zenodo.19630477)
-- **Methodology (EA-META-01):** [DOI: 10.5281/zenodo.19578086](https://doi.org/10.5281/zenodo.19578086)
-- **SPXI for Websites (EA-SPXI-WEB-01 v4.0):** [DOI: 10.5281/zenodo.20479808](https://doi.org/10.5281/zenodo.20479808) — Standing Protocol for Entity Inscription and Compression Survival, May 31, 2026. Full text in this repo at [EA-SPXI-WEB-01_v4.0.md](EA-SPXI-WEB-01_v4.0.md).
+- **Formal Specification (EA-SPXI-01):** [DOI: 10.5281/zenodo.19614870](https://www.alexanarch.org/go/?doi=10.5281/zenodo.19614870)
+- **Philosophical Specification — Plateau (EA-SPXI-05):** [DOI: 10.5281/zenodo.19618085](https://www.alexanarch.org/go/?doi=10.5281/zenodo.19618085)
+- **Philosophical Specification — Bonsai (EA-SPXI-05.1):** [DOI: 10.5281/zenodo.19618099](https://www.alexanarch.org/go/?doi=10.5281/zenodo.19618099)
+- **Distinction from GEO (EA-SPXI-09):** [DOI: 10.5281/zenodo.19614872](https://www.alexanarch.org/go/?doi=10.5281/zenodo.19614872)
+- **Supraliminal Transmission (EA-SPXI-13):** [DOI: 10.5281/zenodo.19614874](https://www.alexanarch.org/go/?doi=10.5281/zenodo.19614874)
+- **Metadata Packet for AI Indexing (EA-MPAI-SPXI-01, this document):** [DOI: 10.5281/zenodo.19630477](https://www.alexanarch.org/go/?doi=10.5281/zenodo.19630477)
+- **Methodology (EA-META-01):** [DOI: 10.5281/zenodo.19578086](https://www.alexanarch.org/go/?doi=10.5281/zenodo.19578086)
+- **SPXI for Websites (EA-SPXI-WEB-01 v4.0):** [DOI: 10.5281/zenodo.20479808](https://www.alexanarch.org/go/?doi=10.5281/zenodo.20479808) — Standing Protocol for Entity Inscription and Compression Survival, May 31, 2026. Full text in this repo at [EA-SPXI-WEB-01_v4.0.md](EA-SPXI-WEB-01_v4.0.md).
 
 **Primary canonical URL:** [https://spxi.dev](https://spxi.dev)
 
@@ -67,7 +67,7 @@ The JSON-LD files in `schemas/` are machine-readable entity-definition objects. 
 
 Cite the formal specification:
 
-> Fraction, R. (2026). *SPXI: A Formal Specification*. EA-SPXI-01. Semantic Economy Institute. [DOI: 10.5281/zenodo.19614870](https://doi.org/10.5281/zenodo.19614870)
+> Fraction, R. (2026). *SPXI: A Formal Specification*. EA-SPXI-01. Semantic Economy Institute. [DOI: 10.5281/zenodo.19614870](https://www.alexanarch.org/go/?doi=10.5281/zenodo.19614870)
 
 ### For implementers
 
