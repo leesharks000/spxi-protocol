@@ -219,7 +219,7 @@ On 14 June 2026, the SPXI Self-Audit Protocol was embedded in five load-bearing 
 | 2 | Provenance After AI (PER paper) | ORPHANED | 10.5281/zenodo.20085115 | 10.5281/zenodo.20686456 | Captures #1–2 (provenance erasure) |
 | 3 | Training Layer Literature: Executive Summary | ORPHANED | 10.5281/zenodo.18382027 | 10.5281/zenodo.20686457 | Capture #5 (training-layer literature) |
 | 4 | SPXI Formal Specification | RETRIEVED | 10.5281/zenodo.19615154 | 10.5281/zenodo.20686470 | Capture #6 (spxi protocol) |
-| 5 | Sharks-Function and Continuity Tether | ATTRIBUTED | 10.5281/zenodo.18816555 | 10.5281/zenodo.20686471 | Capture #31 (sharks continuity tether) |
+| 5 | Sharks-Function and Continuity Tether | ATTRIBUTED | 10.5281/zenodo.18816556 | 10.5281/zenodo.20686471 | Capture #31 (sharks continuity tether) |
 
 **Experimental design:** Three ORPHANED documents (concept retrieves, author absent), one RETRIEVED document (concept and protocol retrieve, attribution untested), one ATTRIBUTED control (concept and author both retrieve, testing compatibility). The spread tests whether the self-audit block can repair orphaning, strengthen retrieval, and remain compatible with already-attributed content.
 

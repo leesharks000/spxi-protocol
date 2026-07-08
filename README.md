@@ -19,7 +19,7 @@ SPXI Protocol is exclusively a technical protocol and scholarly discipline publi
 
 - **Formal Specification (EA-SPXI-01):** [DOI: 10.5281/zenodo.19614870](https://www.alexanarch.org/go/?doi=10.5281/zenodo.19614870)
 - **Philosophical Specification — Plateau (EA-SPXI-05):** [DOI: 10.5281/zenodo.19618085](https://www.alexanarch.org/go/?doi=10.5281/zenodo.19618085)
-- **Philosophical Specification — Bonsai (EA-SPXI-05.1):** [DOI: 10.5281/zenodo.19618098](https://www.alexanarch.org/go/?doi=10.5281/zenodo.19618098)
+- **Philosophical Specification — Bonsai (EA-SPXI-05.1):** [DOI: 10.5281/zenodo.19618099](https://www.alexanarch.org/go/?doi=10.5281/zenodo.19618099)
 - **Distinction from GEO (EA-SPXI-09):** [DOI: 10.5281/zenodo.19614872](https://www.alexanarch.org/go/?doi=10.5281/zenodo.19614872)
 - **Supraliminal Transmission (EA-SPXI-13):** [DOI: 10.5281/zenodo.19614874](https://www.alexanarch.org/go/?doi=10.5281/zenodo.19614874)
 - **Metadata Packet for AI Indexing (EA-MPAI-SPXI-01, this document):** [DOI: 10.5281/zenodo.19630477](https://www.alexanarch.org/go/?doi=10.5281/zenodo.19630477)
