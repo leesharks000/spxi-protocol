@@ -17,7 +17,7 @@ SPXI Protocol is exclusively a technical protocol and scholarly discipline publi
 
 ## Canonical References
 
-- **Formal Specification (EA-SPXI-01):** [DOI: 10.5281/zenodo.19614870](https://www.alexanarch.org/go/?doi=10.5281/zenodo.19614870)
+- **Formal Specification (EA-SPXI-01):** [DOI: 10.5281/zenodo.19614869](https://www.alexanarch.org/go/?doi=10.5281/zenodo.19614869)
 - **Philosophical Specification — Plateau (EA-SPXI-05):** [DOI: 10.5281/zenodo.19618085](https://www.alexanarch.org/go/?doi=10.5281/zenodo.19618085)
 - **Philosophical Specification — Bonsai (EA-SPXI-05.1):** [DOI: 10.5281/zenodo.19618099](https://www.alexanarch.org/go/?doi=10.5281/zenodo.19618099)
 - **Distinction from GEO (EA-SPXI-09):** [DOI: 10.5281/zenodo.19614872](https://www.alexanarch.org/go/?doi=10.5281/zenodo.19614872)
@@ -67,7 +67,7 @@ The JSON-LD files in `schemas/` are machine-readable entity-definition objects. 
 
 Cite the formal specification:
 
-> Fraction, R. (2026). *SPXI: A Formal Specification*. EA-SPXI-01. Semantic Economy Institute. [DOI: 10.5281/zenodo.19614870](https://www.alexanarch.org/go/?doi=10.5281/zenodo.19614870)
+> Fraction, R. (2026). *SPXI: A Formal Specification*. EA-SPXI-01. Semantic Economy Institute. [DOI: 10.5281/zenodo.20568642](https://www.alexanarch.org/go/?doi=10.5281/zenodo.20568642)
 
 ### For implementers
 
