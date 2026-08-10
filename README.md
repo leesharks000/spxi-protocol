@@ -25,6 +25,7 @@ SPXI Protocol is exclusively a technical protocol and scholarly discipline publi
 - **Metadata Packet for AI Indexing (EA-MPAI-SPXI-01, this document):** [DOI: 10.5281/zenodo.19630477](https://www.alexanarch.org/go/?doi=10.5281/zenodo.19630477)
 - **Methodology (EA-META-01):** [DOI: 10.5281/zenodo.19578086](https://www.alexanarch.org/go/?doi=10.5281/zenodo.19578086)
 - **SPXI for Websites (EA-SPXI-WEB-01 v4.0):** [DOI: 10.5281/zenodo.20479808](https://www.alexanarch.org/go/?doi=10.5281/zenodo.20479808) — Standing Protocol for Entity Inscription and Compression Survival, May 31, 2026. Full text in this repo at [EA-SPXI-WEB-01_v4.0.md](EA-SPXI-WEB-01_v4.0.md).
+- **Heteronym Surface Specification (EA-SPXI-HETERONYM-01 v0.2):** [AXN:05CA.OPERATIVE.🎭🪪🏛️🔖🚫🪞](https://www.alexanarch.org/s/records/1446/) — dual-surface rendering of a named position; the null rule as invariant, and the `sameAs` boundary that keeps a heteronym from collapsing into its orthonym.
 
 **Primary canonical URL:** [https://spxi.dev](https://spxi.dev)
 
