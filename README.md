@@ -31,6 +31,8 @@ SPXI Protocol is exclusively a technical protocol and scholarly discipline publi
 
 ## The Five Components
 
+*The foundational five-component model, April 2026. It is kept as written. The current operational inventory expands this core into 85 methods across nine levels ([spxi.dev/methods](https://www.spxi.dev/methods/)), and identifiers are now AXN at the archive with the Zenodo DOIs kept as historical provenance. Current state in one object: [spxi.dev/current.json](https://www.spxi.dev/current.json).*
+
 1. **Entity** — the discrete unit of reference composed at the retrieval layer
 2. **Inscription** — deliberate structuring into DOI-anchored deposit form
 3. **Disambiguation** — explicit negative tags; what the entity is not
